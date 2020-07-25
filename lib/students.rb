@@ -2,7 +2,7 @@
 
 def highest_student_gpa
   select max(gpa) from students
-end;
+end
 end
 
 def lowest_student_gpa
